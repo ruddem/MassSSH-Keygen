@@ -20,6 +20,10 @@ Example:
 
 ## Before Usage:
 Make sure that the packages "putty-tools" and "python3" are installed on the Unix system.
+On Debian based distributions:
+```text
+apt install putty-tools python3 -y
+```
 
 ## Tested executable under the following systems:
 - Debian 11
