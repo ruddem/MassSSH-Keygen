@@ -41,14 +41,14 @@ python3 main.py [-h] [-l GENERATED_FILES_LOCATION] [-g KEYS_TO_GENERATE] [-d {Tr
 ```
 
 ```text
-optional arguments:\
-  -h, --help            show this help message and exit\
-  -l GENERATED_FILES_LOCATION, --generated_files_location GENERATED_FILES_LOCATION\
-                        Define save location for generated Files (default='keys/')\
-  -g KEYS_TO_GENERATE, --keys_to_generate KEYS_TO_GENERATE\
-                        Define number of keys to generate (default='1')\
-  -d {True,False}, --dry {True,False}\
-                        dry run script, only print in cli (default='False')\
-  -t {ed25519,rsa}, --key_type {ed25519,rsa}\
+optional arguments:
+  -h, --help            show this help message and exit
+  -l GENERATED_FILES_LOCATION, --generated_files_location GENERATED_FILES_LOCATION
+                        Define save location for generated Files (default='keys/')
+  -g KEYS_TO_GENERATE, --keys_to_generate KEYS_TO_GENERATE
+                        Define number of keys to generate (default='1')
+  -d {True,False}, --dry {True,False}
+                        dry run script, only print in cli (default='False')
+  -t {ed25519,rsa}, --key_type {ed25519,rsa}
                         specify key type when generating (ed25519, rsa) (default='ed25519')
 ```
