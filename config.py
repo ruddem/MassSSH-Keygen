@@ -3,3 +3,4 @@ generated_files_location = "keys/"
 keys_to_generate = 1
 dry_run = False
 key_type = "ed25519"
+parallel_threads = 1

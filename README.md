@@ -37,7 +37,7 @@ python3 main.py
 (If the optional parameters are not specified, the variables set in config.py are used)
 
 ```text
-python3 main.py [-h] [-l GENERATED_FILES_LOCATION] [-g KEYS_TO_GENERATE] [-d {True,False}]
+python3 main.py [-h] [-l GENERATED_FILES_LOCATION] [-g KEYS_TO_GENERATE] [-d {True,False}] [-t {ed25519,rsa}] [-p PARALLEL_THREADS]
 ```
 
 ```text
@@ -51,4 +51,6 @@ optional arguments:
                         dry run script, only print in cli (default='False')
   -t {ed25519,rsa}, --key_type {ed25519,rsa}
                         specify key type when generating (ed25519, rsa) (default='ed25519')
+  -p PARALLEL_THREADS, --parallel_threads PARALLEL_THREADS
+                        specify number of prallel threads (default='4')
 ```

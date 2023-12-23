@@ -185,5 +185,4 @@ fabric.properties
 .idea
 
 # Custom
-test.py
 keys/
