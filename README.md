@@ -5,6 +5,7 @@ Following output for every SSH-Key-Pair:
 - $KEYNAME.pub
 - $KEYNAME.key
 - $KEYNAME.pass
+- $KEYNAME.fingerprint
 (.pass contains password for the encrypted private-key)
 
 > [!NOTE]

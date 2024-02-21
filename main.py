@@ -78,6 +78,7 @@ def generate_ssh_keys(generated_files_location, keys_to_generate, dry_run, key_t
         if not dry_run:
             shell_execute.write_pass_file(generated_files_location, password, pass_file_name)
             shell_execute.keygen(generated_files_location, key_name, pass_file_name, key_type)
+            shell_execute.write_fingerprint_file(generated_files_location, key_name)
             print("Generated", key_name)
 
         else:
