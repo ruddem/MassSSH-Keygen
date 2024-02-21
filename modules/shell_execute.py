@@ -29,5 +29,5 @@ def keygen(generated_files_location, key_name, pass_file_name, key_type):
 
 def write_fingerprint_file(generated_files_location, key_name):
     key_name = generated_files_location + key_name
-    command = "ssh-keygen -E sha256 -lf" + key_name + ".pub" + "' > " + key_name + ".fingerprint"
+    command = "ssh-keygen -E sha256 -lf" + key_name + ".pub" + " > " + key_name + ".fingerprint"
     os.system(command)
